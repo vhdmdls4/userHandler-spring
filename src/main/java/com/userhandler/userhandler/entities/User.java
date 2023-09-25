@@ -12,6 +12,7 @@ public class User {
     private String email;
 
     //parte do mapeamento do objeto relacional das entidades
+    //testing git config --local
     @ManyToOne
     @JoinColumn(name = "department_id")
     private Department department;
