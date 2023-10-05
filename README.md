@@ -34,6 +34,7 @@ Os principais passos abordados durante a aula foram os seguintes:
 
 ## Trechos de Código para Copiar
 ### Configuração do Maven Resources Plugin
+
 ___xml___: 
 <plugin>
     <groupId>org.apache.maven.plugins</groupId>
@@ -43,25 +44,40 @@ ___xml___:
 
 ### Configurações do Banco de Dados
 ___properties___: 
-# Dados de conexão com o banco H2
+
+#### Dados de conexão com o banco H2
+
 spring.datasource.url=jdbc:h2:mem:testdb
+
 spring.datasource.username=sa
+
 spring.datasource.password=
-# Configuração do cliente web do banco H2
+
+#### Configuração do cliente web do banco H2
 spring.h2.console.enabled=true
+
 spring.h2.console.path=/h2-console
-# Configuração para mostrar o SQL no console
+
+#### Configuração para mostrar o SQL no console
 spring.jpa.show-sql=true
+
 spring.jpa.properties.hibernate.format_sql=true
+
 
 ### Script SQL
 ___sql___: 
+
 INSERT INTO tb_department(name) VALUES ('Gestão');
+
 INSERT INTO tb_department(name) VALUES ('Informática');
 
+
 INSERT INTO tb_user(department_id, name, email) VALUES (1, 'Maria', 'maria@gmail.com');
+
 INSERT INTO tb_user(department_id, name, email) VALUES (1, 'Bob', 'bob@gmail.com');
+
 INSERT INTO tb_user(department_id, name, email) VALUES (2, 'Alex', 'alex@gmail.com');
+
 INSERT INTO tb_user(department_id, name, email) VALUES (2, 'Ana', 'ana@gmail.com');
 
 Este projeto serve como um excelente ponto de partida para quem está iniciando no desenvolvimento Java Web com Spring Boot. Ao seguir os passos e códigos fornecidos, você será capaz de construir uma API REST funcional e aprender conceitos essenciais para o desenvolvimento web moderno.
