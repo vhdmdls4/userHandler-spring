@@ -1,4 +1,4 @@
-# Projeto Java Web com Spring Boot - Aprendizados e Implementações
+# Projeto Java Web com Spring Boot - Aprendizados e Implementações ☕♨️
 
 Este projeto foi desenvolvido como parte do curso "Seu primeiro projeto Java Web no Spring Boot 2022" da DevSuperior - Escola de Programação. O objetivo do projeto é demonstrar como construir uma API REST com banco de dados usando Java e Spring Boot.
 
@@ -79,5 +79,8 @@ INSERT INTO tb_user(department_id, name, email) VALUES (1, 'Bob', 'bob@gmail.com
 INSERT INTO tb_user(department_id, name, email) VALUES (2, 'Alex', 'alex@gmail.com');
 
 INSERT INTO tb_user(department_id, name, email) VALUES (2, 'Ana', 'ana@gmail.com');
+
+## Futuras implementações 🚧
+- Adicionar endereço aos usuários usando API ViaCep para exercitar uso da lib Feign 
 
 Este projeto serve como um excelente ponto de partida para quem está iniciando no desenvolvimento Java Web com Spring Boot. Ao seguir os passos e códigos fornecidos, você será capaz de construir uma API REST funcional e aprender conceitos essenciais para o desenvolvimento web moderno.
