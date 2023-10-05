@@ -1,4 +1,4 @@
-package com.userhandler.userhandler;
+package com.victorhugo.userhandler;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

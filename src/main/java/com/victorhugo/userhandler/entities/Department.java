@@ -1,4 +1,5 @@
-package com.userhandler.userhandler.entities;
+package com.victorhugo.userhandler.entities;
+
 
 import jakarta.persistence.*;
 
